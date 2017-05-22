@@ -1,0 +1,30 @@
+<html>
+ <head>
+   <script type="text/javascript" src="imports/jquery-3.2.1.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/pacmanCss.css">
+ </head>
+  
+ <body onresize="window.onload()" style="background-color: black;">
+   <canvas id="StartScreen" width="0" height="0"> </canvas>
+    <div id="GameScreen">
+      <canvas id="pacmanGame" width="1000" height="550" style="border:1px solid #000000; background-color: black; display: none;"></canvas>
+        <canvas id="pacmanGameSidePanel" width="300" height="300" style="display: none;"></canvas>
+          </div>
+            <button id="startButton" class="button"></button><br>
+            <button id="controllersButton" class="button2"></button>
+      <!--   <div id="footer" style="margin-top: 8%;">
+            <h5 style="color: white;">Version:1.5 </h5>
+            <h5 style="color: white;">@Copyright PNG(Programmers Next Generation)</h5>
+            </div> -->
+            <script src="entity/sidePanel.js"></script>
+			<script src="entity/entity.js"></script>
+			<script src="entity/unitEntity.js"></script>
+		    <script src="entity/enemyEntity.js"></script>
+		    <script src="entity/pacmanEntity.js"></script>
+			<script src="entity/dotsEntity.js"></script>
+			<script src="servises/wallServise.js"></script>
+            <script src="servises/initPropertiesService.js"></script>
+			<script src="servises/playerMovementService.js"></script>
+            <script src="servises/mainService.js"></script>
+</body>
+</html>

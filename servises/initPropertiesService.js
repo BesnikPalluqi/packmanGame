@@ -1,0 +1,28 @@
+var contex = document.getElementById("pacmanGame").getContext("2d");
+contex.font ='30px Arial';
+var Height = 550;
+var Width = 1000;
+var enemyList = {};
+var pacDotsList = {};
+var powerUpsList = {};
+var frameCount = 0;
+var Img = {};
+var pacman;
+var hasGameStart = false;
+Img.pacmanUp = new Image();
+Img.pacmanUp.src = 'img/pacman-up.png';
+Img.pacmanDown = new Image();
+Img.pacmanDown.src = 'img/pacman-down.png';
+Img.pacmanLeft = new Image();
+Img.pacmanLeft.src = 'img/pacman-left.png';
+Img.pacmanRight = new Image();
+Img.pacmanRight.src = 'img/pacman-right.png';
+Img.Blinky = new Image();
+Img.Blinky.src = 'img/Blinky.jpg';
+Img.Clyde = new Image();
+Img.Clyde.src = 'img/Clyde.jpg';
+Img.Inky = new Image();
+Img.Inky.src = 'img/Inky.jpg';
+Img.Pinky = new Image();
+Img.Pinky.src = 'img/Pinky.jpg';
+
